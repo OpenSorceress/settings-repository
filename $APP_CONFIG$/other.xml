@@ -106,6 +106,22 @@
       <option name="useProxy" value="false" />
       <username>llasalla</username>
     </JIRA>
+    <Redmine shared="false" url="http://redmine.niyolabs.com">
+      <option name="APIKey" value="" />
+      <option name="assignedToMe" value="false" />
+      <commitMessageFormat>{id} {summary}</commitMessageFormat>
+      <option name="currentProject">
+        <RedmineProject id="-1" identifier="-- from all projects --" />
+      </option>
+      <password>dfdadfd8dfcbdfc4dfc9dfd3dffadfc2dfeadf9bdf9bdfdfdf8e</password>
+      <option name="loginAnonymously" value="false" />
+      <option name="preferredCloseTaskState" />
+      <option name="preferredOpenTaskState" />
+      <option name="shouldFormatCommitMessage" value="false" />
+      <option name="useHttpAuthentication" value="true" />
+      <option name="useProxy" value="false" />
+      <username>leah</username>
+    </Redmine>
   </component>
   <component name="SystemNotifications">
     <option name="NOTIFICATIONS">
