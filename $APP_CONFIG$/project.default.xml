@@ -1,12 +1,6 @@
 <application>
   <component name="ProjectManager">
     <defaultProject version="4">
-      <component name="ComposerJsonPluginSettings">
-        <unboundedVersionInspectionSettings>
-          <excludedPackages />
-        </unboundedVersionInspectionSettings>
-        <customRepositories />
-      </component>
       <component name="NamedScopeManager">
         <order />
       </component>
@@ -25,7 +19,7 @@
       </component>
       <component name="ProjectRootManager" version="2" />
       <component name="PropertiesComponent">
-        <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+        <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
         <property name="settings.editor.splitter.proportion" value="0.2" />
       </component>
     </defaultProject>

@@ -1,0 +1,24 @@
+<application>
+  <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group value="IncrementValue" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Debug Tool Window Left Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="JavaScript Debugger" is_group="true" action_type="1" position="2">
+      <path value="root" />
+      <path value="Debug Tool Window Left Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="FileChooser.Refresh" is_action="true" action_type="1" position="3">
+      <path value="root" />
+      <path value="Debug Tool Window Left Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="RunGc" is_action="true" action_type="1" position="9">
+      <path value="root" />
+      <path value="Debug Tool Window Top Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+  </component>
+</application>

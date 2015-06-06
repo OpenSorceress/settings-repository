@@ -1,13 +1,17 @@
 <application>
   <component name="XDebuggerSettings">
     <data-views />
-    <general>
-      <unmute-on-stop>true</unmute-on-stop>
-    </general>
+    <general />
     <debuggers>
       <debugger id="javascript">
         <configuration>
           <custom-object-presentation />
+          <stepping-filters>
+            <stepping-filter url-pattern="express*" />
+            <stepping-filter url-pattern="passport*" />
+            <stepping-filter url-pattern="stripe*" />
+            <stepping-filter url-pattern="*/node_modules/*" />
+          </stepping-filters>
         </configuration>
       </debugger>
     </debuggers>
