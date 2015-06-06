@@ -1,0 +1,39 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0fa1e137-153b-4780-8e1f-1782de25ff72" name="vagrant" url="http://poc.dev:8081/">
+        <fileTransfer mountedRoot="/private/var/www/html/poc" accessType="MOUNT" />
+      </webServer>
+      <webServer id="e4381d0d-7fdd-4099-852e-19aa70148a4d" name="staging.ice.com" url="http://staging.ice.com">
+        <fileTransfer host="staging.ice.com" port="22" privateKey="$USER_HOME$/.ssh/ice-staging.pem" accessType="SFTP" username="ec2-user" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="de3a5d98-5f23-44c6-b9a9-ccc343a7fd7b" name="prod" url="http://54.200.146.215">
+        <fileTransfer host="54.200.146.215" port="22" privateKey="$USER_HOME$/.ssh/ice" accessType="SFTP" username="leah.lasalla" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="3eeb5e4f-2ecc-4792-97e9-4141d6d0b12e" name="nginx" url="http://sandbox.dev">
+        <fileTransfer mountedRoot="/private/var/www/html/sandbox" accessType="MOUNT" />
+      </webServer>
+      <webServer id="4e81bc42-4f8b-4a7e-b16e-ca3944bb68d0" name="suppressedhistories" url="http://fuggle.lmi.net">
+        <fileTransfer host="fuggle.lmi.net" port="21" rootFolder="/www.suppressedhistories.net" password="dfe5dfc7dff9dfd8dfc3dfe7dfcb" username="maxdashu">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="2d5a3418-781e-4f80-a807-80ee82bf13c6" name="wp-1" url="http://192.168.56.101">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="ad9e07d0-834f-4428-8dac-efabe31d5a2a" name="vvv" url="http://kartfu.dev">
+        <fileTransfer mountedRoot="$USER_HOME$/Development/kartfu" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</application>
