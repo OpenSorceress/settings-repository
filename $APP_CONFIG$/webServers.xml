@@ -1,25 +1,8 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="0fa1e137-153b-4780-8e1f-1782de25ff72" name="vagrant" url="http://dev.ice.com">
-        <fileTransfer mountedRoot="/private/var/www/html/ice.com" accessType="MOUNT" />
-      </webServer>
-      <webServer id="e4381d0d-7fdd-4099-852e-19aa70148a4d" name="staging.ice.com" url="http://staging.ice.com">
-        <fileTransfer host="staging.ice.com" port="22" privateKey="$USER_HOME$/.ssh/ice-staging.pem" accessType="SFTP" username="ec2-user" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="de3a5d98-5f23-44c6-b9a9-ccc343a7fd7b" name="prod" url="http://54.200.146.215">
-        <fileTransfer host="54.200.146.215" port="22" privateKey="$USER_HOME$/.ssh/ice" accessType="SFTP" username="leah.lasalla" keyPair="true">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="3eeb5e4f-2ecc-4792-97e9-4141d6d0b12e" name="nginx" url="http://dev.ice.com">
-        <fileTransfer mountedRoot="/private/var/www/html/ice.com" accessType="MOUNT" />
+      <webServer id="5b0e8137-1711-44cc-a92b-5c6ad64d2965" name="vagrant" url="http://localhost">
+        <fileTransfer accessType="LOCAL" />
       </webServer>
     </option>
   </component>

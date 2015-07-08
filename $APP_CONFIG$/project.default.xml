@@ -36,8 +36,15 @@
       <component name="NamedScopeManager">
         <order />
       </component>
+      <component name="PhpProjectServersManager">
+        <servers>
+          <server host="http://vagrant" id="071a32ea-87fd-4e60-8093-41b626fac22c" name="vagrant" />
+        </servers>
+      </component>
       <component name="PhpServers">
-        <servers />
+        <servers>
+          <server host="http://vagrant" id="071a32ea-87fd-4e60-8093-41b626fac22c" name="vagrant" />
+        </servers>
       </component>
       <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
       <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -97,14 +104,18 @@
       <component name="PropertiesComponent">
         <property name="settings.editor.selected.configurable" value="web.server" />
         <property name="settings.editor.splitter.proportion" value="0.2" />
-        <property name="last_opened_file_path" value="/Library" />
+        <property name="last_opened_file_path" value="/usr/local/lib/node_modules/cylon-ardrone" />
         <property name="Downloaded.Files.Path.Enabled" value="false" />
         <property name="Repository.Attach.JavaDocs" value="false" />
         <property name="Repository.Attach.Sources" value="false" />
-        <property name="project.structure.last.edited" value="Project" />
+        <property name="project.structure.last.edited" value="Global Libraries" />
         <property name="project.structure.proportion" value="0.15429688" />
         <property name="project.structure.side.proportion" value="0.2" />
         <property name="recentsLimit" value="5" />
+        <property name="Node.Profiling.Tick.Path" value="" />
+        <property name="Node.Profiling.V8Profiler.Path" value="" />
+        <property name="Node.Profiling.Gnuplot.Path" value="" />
+        <property name="restartRequiresConfirmation" value="true" />
       </component>
       <component name="RunManager">
         <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -155,6 +166,17 @@
           <envs />
           <method />
         </configuration>
+        <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+          <option name="INTERPRETER_OPTIONS" value="" />
+          <option name="INTERPRETER_PATH" value="/bin/bash" />
+          <option name="WORKING_DIRECTORY" value="" />
+          <option name="PARENT_ENVS" value="true" />
+          <option name="SCRIPT_NAME" value="" />
+          <option name="PARAMETERS" value="" />
+          <module name="" />
+          <envs />
+          <method />
+        </configuration>
         <configuration default="true" type="CBConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
           <deployment />
           <server-settings>
@@ -166,7 +188,58 @@
           <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
           <method />
         </configuration>
+        <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+          <method />
+        </configuration>
         <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+          <method />
+        </configuration>
+        <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+          <option name="INTERPRETER_OPTIONS" value="" />
+          <option name="PARENT_ENVS" value="true" />
+          <envs>
+            <env name="PYTHONUNBUFFERED" value="1" />
+          </envs>
+          <option name="SDK_HOME" value="" />
+          <option name="WORKING_DIRECTORY" value="" />
+          <option name="IS_MODULE_SDK" value="false" />
+          <option name="ADD_CONTENT_ROOTS" value="true" />
+          <option name="ADD_SOURCE_ROOTS" value="true" />
+          <module name="" />
+          <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+          <EXTENSION ID="com.brainwy.pyvmmonitor.PyVmMonitorRunExtension">
+            <option name="PyVmMonitorInitialProfileMode" value="INHERIT_GLOBAL" />
+          </EXTENSION>
+          <option name="TARGET" value="" />
+          <option name="SETTINGS_FILE" value="" />
+          <option name="CUSTOM_SETTINGS" value="false" />
+          <option name="USE_OPTIONS" value="false" />
+          <option name="OPTIONS" value="" />
+          <method />
+        </configuration>
+        <configuration default="true" type="GWT.ConfigurationType" factoryName="GWT Configuration">
+          <module name="" />
+          <method />
+        </configuration>
+        <configuration default="true" type="IrbRunConfigurationType" factoryName="IRB console">
+          <module name="" />
+          <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+          <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+          <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+          <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+          <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+          <envs />
+          <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+          <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+          <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+            <COVERAGE_PATTERN ENABLED="true">
+              <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+            </COVERAGE_PATTERN>
+          </EXTENSION>
+          <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+          <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+          <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+          <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
           <method />
         </configuration>
         <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -199,10 +272,66 @@
           <profiling log-folder="$APPLICATION_HOME_DIR$/bin/." />
           <method />
         </configuration>
+        <configuration default="true" type="NodeWebKit" factoryName="NW.js">
+          <method />
+        </configuration>
+        <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+          <BehatRunner />
+          <method />
+        </configuration>
         <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
           <method />
         </configuration>
         <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+          <method />
+        </configuration>
+        <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+          <method />
+        </configuration>
+        <configuration default="true" type="Python.AppEngineServer" factoryName="App Engine server">
+          <option name="INTERPRETER_OPTIONS" value="" />
+          <option name="PARENT_ENVS" value="true" />
+          <envs />
+          <option name="SDK_HOME" value="" />
+          <option name="WORKING_DIRECTORY" value="" />
+          <option name="IS_MODULE_SDK" value="false" />
+          <option name="ADD_CONTENT_ROOTS" value="true" />
+          <option name="ADD_SOURCE_ROOTS" value="true" />
+          <module name="" />
+          <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+          <EXTENSION ID="com.brainwy.pyvmmonitor.PyVmMonitorRunExtension">
+            <option name="PyVmMonitorInitialProfileMode" value="INHERIT_GLOBAL" />
+          </EXTENSION>
+          <option name="launchJavascriptDebuger" value="false" />
+          <option name="host" value="127.0.0.1" />
+          <option name="browserUrl" value="" />
+          <option name="additionalOptions" value="" />
+          <method />
+        </configuration>
+        <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+          <option name="INTERPRETER_OPTIONS" value="" />
+          <option name="PARENT_ENVS" value="true" />
+          <envs>
+            <env name="PYTHONUNBUFFERED" value="1" />
+          </envs>
+          <option name="SDK_HOME" value="" />
+          <option name="WORKING_DIRECTORY" value="" />
+          <option name="IS_MODULE_SDK" value="false" />
+          <option name="ADD_CONTENT_ROOTS" value="true" />
+          <option name="ADD_SOURCE_ROOTS" value="true" />
+          <module name="" />
+          <EXTENSION ID="com.brainwy.pyvmmonitor.PyVmMonitorRunExtension">
+            <option name="PyVmMonitorInitialProfileMode" value="INHERIT_GLOBAL" />
+          </EXTENSION>
+          <option name="launchJavascriptDebuger" value="false" />
+          <option name="port" value="8000" />
+          <option name="host" value="" />
+          <option name="additionalOptions" value="" />
+          <option name="browserUrl" value="" />
+          <option name="runTestServer" value="false" />
+          <option name="runNoReload" value="false" />
+          <option name="useCustomRunCommand" value="false" />
+          <option name="customRunCommand" value="" />
           <method />
         </configuration>
         <configuration default="true" type="Remote" factoryName="Remote">
@@ -281,7 +410,7 @@
         <states>
           <state key="GlobalLibrariesConfigurable.UI">
             <settings>
-              <last-edited>gort</last-edited>
+              <last-edited>cylon-ardrone</last-edited>
               <splitter-proportions>
                 <option name="proportions">
                   <list>
