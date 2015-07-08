@@ -26,9 +26,20 @@
         </unboundedVersionInspectionSettings>
         <customRepositories />
       </component>
+      <component name="MavenImportPreferences">
+        <option name="generalSettings">
+          <MavenGeneralSettings>
+            <option name="mavenHome" value="Bundled (Maven 3)" />
+          </MavenGeneralSettings>
+        </option>
+      </component>
       <component name="NamedScopeManager">
         <order />
       </component>
+      <component name="PhpServers">
+        <servers />
+      </component>
+      <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
       <component name="ProjectInspectionProfilesVisibleTreeState">
         <entry key="Project Default">
           <profile-state>
@@ -41,9 +52,6 @@
               </State>
               <State>
                 <id>Android Lint</id>
-              </State>
-              <State>
-                <id>Code quality toolsJavaScript</id>
               </State>
               <State>
                 <id>Gems</id>
@@ -66,7 +74,7 @@
             </expanded-state>
             <selected-state>
               <State>
-                <id>BashSupport</id>
+                <id>Android</id>
               </State>
             </selected-state>
           </profile-state>
@@ -87,21 +95,42 @@
       </component>
       <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" assert-keyword="true" jdk-15="true" />
       <component name="PropertiesComponent">
-        <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+        <property name="settings.editor.selected.configurable" value="web.server" />
         <property name="settings.editor.splitter.proportion" value="0.2" />
-        <property name="last_opened_file_path" value="/usr/local/lib/dtrace" />
+        <property name="last_opened_file_path" value="/Library" />
         <property name="Downloaded.Files.Path.Enabled" value="false" />
         <property name="Repository.Attach.JavaDocs" value="false" />
         <property name="Repository.Attach.Sources" value="false" />
-        <property name="project.structure.last.edited" value="SDKs" />
-        <property name="project.structure.proportion" value="0.0" />
+        <property name="project.structure.last.edited" value="Project" />
+        <property name="project.structure.proportion" value="0.15429688" />
         <property name="project.structure.side.proportion" value="0.2" />
+        <property name="recentsLimit" value="5" />
       </component>
       <component name="RunManager">
         <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
           <module name="" />
           <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
           <option name="PROGRAM_PARAMETERS" />
+          <method />
+        </configuration>
+        <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+          <module name="" />
+          <option name="ACTIVITY_CLASS" value="" />
+          <option name="MODE" value="default_activity" />
+          <option name="DEPLOY" value="true" />
+          <option name="ARTIFACT_NAME" value="" />
+          <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+          <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+          <option name="PREFERRED_AVD" value="" />
+          <option name="USE_COMMAND_LINE" value="true" />
+          <option name="COMMAND_LINE" value="" />
+          <option name="WIPE_USER_DATA" value="false" />
+          <option name="DISABLE_BOOT_ANIMATION" value="false" />
+          <option name="NETWORK_SPEED" value="full" />
+          <option name="NETWORK_LATENCY" value="none" />
+          <option name="CLEAR_LOGCAT" value="false" />
+          <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+          <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
           <method />
         </configuration>
         <configuration default="true" type="Applet" factoryName="Applet">
@@ -126,6 +155,20 @@
           <envs />
           <method />
         </configuration>
+        <configuration default="true" type="CBConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+          <deployment />
+          <server-settings>
+            <option name="HTTP_PORT_X" value="8080" />
+            <option name="JNDI_PORT" value="1099" />
+            <option name="USERNAME" value="" />
+            <option name="PASSWORD" value="" />
+          </server-settings>
+          <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+          <method />
+        </configuration>
+        <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+          <method />
+        </configuration>
         <configuration default="true" type="JUnit" factoryName="JUnit">
           <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
           <module name="" />
@@ -147,12 +190,55 @@
           <patterns />
           <method />
         </configuration>
+        <configuration default="true" type="MongoRunConfiguration" factoryName="Mongo">
+          <setting name="path" value="" />
+          <setting name="shellParams" value="" />
+          <method />
+        </configuration>
+        <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+          <profiling log-folder="$APPLICATION_HOME_DIR$/bin/." />
+          <method />
+        </configuration>
+        <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
+          <method />
+        </configuration>
+        <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+          <method />
+        </configuration>
         <configuration default="true" type="Remote" factoryName="Remote">
           <option name="USE_SOCKET_TRANSPORT" value="true" />
           <option name="SERVER_MODE" value="false" />
           <option name="SHMEM_ADDRESS" value="javadebug" />
           <option name="HOST" value="localhost" />
           <option name="PORT" value="5005" />
+          <method />
+        </configuration>
+        <configuration default="true" type="RubyRemoteDebugConfigurationType" factoryName="Ruby remote debug">
+          <RUBY_REMOTE_DEBUG_CONFIG NAME="REMOTE_HOST" VALUE="localhost" />
+          <RUBY_REMOTE_DEBUG_CONFIG NAME="PORT" VALUE="1234" />
+          <RUBY_REMOTE_DEBUG_CONFIG NAME="DISPATCHER_PORT" VALUE="26162" />
+          <RUBY_REMOTE_DEBUG_CONFIG NAME="REMOTE_ROOT" VALUE="" />
+          <RUBY_REMOTE_DEBUG_CONFIG NAME="LOCAL_ROOT" VALUE="" />
+          <method />
+        </configuration>
+        <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+          <module name="" />
+          <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+          <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+          <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+          <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+          <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+          <envs />
+          <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+          <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+          <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+            <COVERAGE_PATTERN ENABLED="true">
+              <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+            </COVERAGE_PATTERN>
+          </EXTENSION>
+          <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+          <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+          <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
           <method />
         </configuration>
         <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -195,7 +281,7 @@
         <states>
           <state key="GlobalLibrariesConfigurable.UI">
             <settings>
-              <last-edited>npm-cli</last-edited>
+              <last-edited>gort</last-edited>
               <splitter-proportions>
                 <option name="proportions">
                   <list>
@@ -207,7 +293,7 @@
           </state>
           <state key="JdkListConfigurable.UI">
             <settings>
-              <last-edited>GHC 7.8.3</last-edited>
+              <last-edited>ruby-2.0.0-p481</last-edited>
               <splitter-proportions>
                 <option name="proportions">
                   <list>
