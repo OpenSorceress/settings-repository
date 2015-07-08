@@ -37,10 +37,31 @@
                 <id />
               </State>
               <State>
+                <id>Android</id>
+              </State>
+              <State>
+                <id>Android Lint</id>
+              </State>
+              <State>
                 <id>Code quality toolsJavaScript</id>
               </State>
               <State>
+                <id>Gems</id>
+              </State>
+              <State>
+                <id>GeneralJavaScript</id>
+              </State>
+              <State>
+                <id>Java</id>
+              </State>
+              <State>
+                <id>Java language level migration aidsJava</id>
+              </State>
+              <State>
                 <id>JavaScript</id>
+              </State>
+              <State>
+                <id>WSDL issues</id>
               </State>
             </expanded-state>
             <selected-state>
@@ -64,10 +85,17 @@
       <component name="ProjectModuleManager">
         <modules />
       </component>
-      <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" assert-keyword="false" jdk-15="false" />
+      <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" assert-keyword="true" jdk-15="true" />
       <component name="PropertiesComponent">
-        <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
+        <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
         <property name="settings.editor.splitter.proportion" value="0.2" />
+        <property name="last_opened_file_path" value="/usr/local/lib/dtrace" />
+        <property name="Downloaded.Files.Path.Enabled" value="false" />
+        <property name="Repository.Attach.JavaDocs" value="false" />
+        <property name="Repository.Attach.Sources" value="false" />
+        <property name="project.structure.last.edited" value="SDKs" />
+        <property name="project.structure.proportion" value="0.0" />
+        <property name="project.structure.side.proportion" value="0.2" />
       </component>
       <component name="RunManager">
         <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -162,6 +190,45 @@
       </component>
       <component name="VcsContentAnnotationSettings">
         <option name="myLimit" value="2678400000" />
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="GlobalLibrariesConfigurable.UI">
+            <settings>
+              <last-edited>npm-cli</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="JdkListConfigurable.UI">
+            <settings>
+              <last-edited>GHC 7.8.3</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ProjectLibrariesConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
       </component>
     </defaultProject>
   </component>

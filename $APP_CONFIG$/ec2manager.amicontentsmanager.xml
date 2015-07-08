@@ -1,0 +1,81 @@
+<application>
+  <component name="Ec2Manager.AmiContentsManager">
+    <option name="configs">
+      <AmiContentsConfig amiId="ami-28163e5c" region="eu-west-1" image="{ImageId: ami-28163e5c, ProductCodes: [], Architecture: i386, Platform: Other Linux, BlockDeviceMappings: [], Tags: [], }" unmodifiable="true">
+        <option name="amiId" value="ami-28163e5c" />
+        <option name="image">
+          <Image>
+            <option name="architecture" value="i386" />
+            <option name="imageId" value="ami-28163e5c" />
+            <option name="platform" value="Other Linux" />
+          </Image>
+        </option>
+        <option name="region" value="eu-west-1" />
+        <option name="serverDescriptions">
+          <list>
+            <AppServerDescription serverName="Tomcat 5.5.23" serverType="Tomcat" startCommand="JAVA_HOME=/env/jdk /env/tomcat/bin/catalina.sh start" startDebugCommand="JPDA_ADDRESS=443 JAVA_HOME=/env/jdk /env/tomcat/bin/catalina.sh jpda start" stopCommand="JAVA_HOME=/env/jdk /env/tomcat/bin/catalina.sh stop" deployPath="/env/tomcat/webapps" unmodifiable="true">
+              <option name="deployPath" value="/env/tomcat/webapps" />
+              <option name="name" value="Tomcat 5.5.23" />
+              <option name="serverType" value="Tomcat" />
+              <option name="startCommand" value="JAVA_HOME=/env/jdk /env/tomcat/bin/catalina.sh start" />
+              <option name="startDebugCommand" value="JPDA_ADDRESS=443 JAVA_HOME=/env/jdk /env/tomcat/bin/catalina.sh jpda start" />
+              <option name="stopCommand" value="JAVA_HOME=/env/jdk /env/tomcat/bin/catalina.sh stop" />
+              <option name="unmodifiable" value="true" />
+            </AppServerDescription>
+          </list>
+        </option>
+        <option name="unmodifiable" value="true" />
+      </AmiContentsConfig>
+      <AmiContentsConfig amiId="ami-aac6eede" region="eu-west-1" image="{ImageId: ami-aac6eede, ProductCodes: [], Architecture: i386, Platform: Other Linux, BlockDeviceMappings: [], Tags: [], }" unmodifiable="true">
+        <option name="amiId" value="ami-aac6eede" />
+        <option name="image">
+          <Image>
+            <option name="architecture" value="i386" />
+            <option name="imageId" value="ami-aac6eede" />
+            <option name="platform" value="Other Linux" />
+          </Image>
+        </option>
+        <option name="region" value="eu-west-1" />
+        <option name="serverDescriptions">
+          <list>
+            <AppServerDescription serverName="dm Server 1.0.2" serverType="dm Server" startCommand="JAVA_HOME=/usr/lib/jvm/java-6-sun-1.6.0.10 /opt/springsource/springsource-dm-server-1.0.2.RELEASE/bin/startup.sh" startDebugCommand="JAVA_HOME=/usr/lib/jvm/java-6-sun-1.6.0.10 /opt/springsource/springsource-dm-server-1.0.2.RELEASE/bin/startup.sh -debug 443" stopCommand="JAVA_HOME=/usr/lib/jvm/java-6-sun-1.6.0.10 /opt/springsource/springsource-dm-server-1.0.2.RELEASE/bin/shutdown.sh" deployPath="/opt/springsource/springsource-dm-server-1.0.2.RELEASE/pickup" unmodifiable="true">
+              <option name="deployPath" value="/opt/springsource/springsource-dm-server-1.0.2.RELEASE/pickup" />
+              <option name="name" value="dm Server 1.0.2" />
+              <option name="serverType" value="dm Server" />
+              <option name="startCommand" value="JAVA_HOME=/usr/lib/jvm/java-6-sun-1.6.0.10 /opt/springsource/springsource-dm-server-1.0.2.RELEASE/bin/startup.sh" />
+              <option name="startDebugCommand" value="JAVA_HOME=/usr/lib/jvm/java-6-sun-1.6.0.10 /opt/springsource/springsource-dm-server-1.0.2.RELEASE/bin/startup.sh -debug 443" />
+              <option name="stopCommand" value="JAVA_HOME=/usr/lib/jvm/java-6-sun-1.6.0.10 /opt/springsource/springsource-dm-server-1.0.2.RELEASE/bin/shutdown.sh" />
+              <option name="unmodifiable" value="true" />
+            </AppServerDescription>
+          </list>
+        </option>
+        <option name="unmodifiable" value="true" />
+      </AmiContentsConfig>
+      <AmiContentsConfig amiId="ami-c5095880" region="us-west-1" image="{ImageId: ami-c5095880, ProductCodes: [], Architecture: i386, Platform: Other Linux, BlockDeviceMappings: [], Tags: [], }" unmodifiable="true">
+        <option name="amiId" value="ami-c5095880" />
+        <option name="image">
+          <Image>
+            <option name="architecture" value="i386" />
+            <option name="imageId" value="ami-c5095880" />
+            <option name="platform" value="Other Linux" />
+          </Image>
+        </option>
+        <option name="region" value="us-west-1" />
+        <option name="serverDescriptions">
+          <list>
+            <AppServerDescription serverName="Tomcat 5.5.23" serverType="Tomcat" startCommand="JAVA_HOME=/env/jdk /env/tomcat/bin/catalina.sh start" startDebugCommand="JPDA_ADDRESS=443 JAVA_HOME=/env/jdk /env/tomcat/bin/catalina.sh jpda start" stopCommand="JAVA_HOME=/env/jdk /env/tomcat/bin/catalina.sh stop" deployPath="/env/tomcat/webapps" unmodifiable="true">
+              <option name="deployPath" value="/env/tomcat/webapps" />
+              <option name="name" value="Tomcat 5.5.23" />
+              <option name="serverType" value="Tomcat" />
+              <option name="startCommand" value="JAVA_HOME=/env/jdk /env/tomcat/bin/catalina.sh start" />
+              <option name="startDebugCommand" value="JPDA_ADDRESS=443 JAVA_HOME=/env/jdk /env/tomcat/bin/catalina.sh jpda start" />
+              <option name="stopCommand" value="JAVA_HOME=/env/jdk /env/tomcat/bin/catalina.sh stop" />
+              <option name="unmodifiable" value="true" />
+            </AppServerDescription>
+          </list>
+        </option>
+        <option name="unmodifiable" value="true" />
+      </AmiContentsConfig>
+    </option>
+  </component>
+</application>
