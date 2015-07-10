@@ -49,6 +49,12 @@
     </driver>
     <driver id="postgresql" name="PostgreSQL" dialect="PostgreSQL">
       <option name="auto-sync" value="true" />
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-driver-license.txt</url>
+      </library>
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-9.4-1201.jdbc4.jar</url>
+      </library>
     </driver>
     <driver id="db2" name="DB2 (LUW)" dialect="DB2">
       <option name="auto-sync" value="false" />
@@ -75,10 +81,10 @@
       <property name="characterSetResults" value="utf8" />
       <property name="yearIsDateType" value="false" />
       <library>
-        <url>file://$USER_HOME$/Library/Preferences/WebIde70/jdbc-drivers/mysql-connector-license.txt</url>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/mysql-connector-license.txt</url>
       </library>
       <library>
-        <url>file://$USER_HOME$/Library/Preferences/WebIde70/jdbc-drivers/mysql-connector-java-5.1.31-bin.jar</url>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/mysql-connector-java-5.1.35-bin.jar</url>
       </library>
     </driver>
     <driver id="hsqldb.remote" name="HSQLDB (Remote)" dialect="HSQLDB">
