@@ -104,7 +104,7 @@
       <component name="PropertiesComponent">
         <property name="settings.editor.selected.configurable" value="web.server" />
         <property name="settings.editor.splitter.proportion" value="0.2" />
-        <property name="last_opened_file_path" value="$USER_HOME$/Projects/Niyolabs/HeroBureau/html" />
+        <property name="last_opened_file_path" value="$USER_HOME$/Projects/sandbox" />
         <property name="Downloaded.Files.Path.Enabled" value="false" />
         <property name="Repository.Attach.JavaDocs" value="false" />
         <property name="Repository.Attach.Sources" value="false" />
@@ -423,6 +423,18 @@
           <state key="JdkListConfigurable.UI">
             <settings>
               <last-edited>ruby-2.0.0-p481</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ProjectJDKs.UI">
+            <settings>
+              <last-edited>Python 3.4.3 (/usr/local/bin/python3)</last-edited>
               <splitter-proportions>
                 <option name="proportions">
                   <list>
