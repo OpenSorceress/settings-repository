@@ -2,10 +2,10 @@
   <component name="FileTypeManager" version="15">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;.tox;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
-      <mapping ext="pks" type="DBN-PSQL" />
+      <mapping ext="pkg" type="DBN-PSQL" />
       <mapping ext="tpe" type="DBN-PSQL" />
       <mapping ext="tps" type="DBN-PSQL" />
-      <mapping ext="pkg" type="DBN-PSQL" />
+      <mapping ext="pks" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="prc" type="DBN-PSQL" />
       <mapping ext="trg" type="DBN-PSQL" />
@@ -20,14 +20,12 @@
       <mapping pattern="sess_k11stujtvv3hf0t0lql3v1r045" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="vim" type="PLAIN_TEXT" />
-      <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="cfg" type="PLAIN_TEXT" />
       <mapping ext="vcl" type="PLAIN_TEXT" />
       <mapping ext="17963" type="PLAIN_TEXT" />
       <mapping ext="xt" type="PLAIN_TEXT" />
       <mapping ext="qwc" type="PLAIN_TEXT" />
       <mapping pattern="jenvrc" type="Properties" />
-      <removed_mapping ext="conf" type="SmartyConfig" />
       <mapping pattern="*.xml.dist" type="XML" />
     </extensionMap>
   </component>

@@ -6,8 +6,16 @@
           <option name="url" value="https://github.com/OpenSorceress/magneto-s3" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/NiyoLabs/HeroBureau.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com" />
+          <option name="userName" value="opensorceress" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="/var/www/html/" />
+    <option name="cloneParentDir" value="$USER_HOME$/Projects/Niyolabs/HeroBureau/html" />
   </component>
 </application>
