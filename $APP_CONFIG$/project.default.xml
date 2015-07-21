@@ -104,7 +104,7 @@
       <component name="PropertiesComponent">
         <property name="settings.editor.selected.configurable" value="web.server" />
         <property name="settings.editor.splitter.proportion" value="0.2" />
-        <property name="last_opened_file_path" value="$USER_HOME$/Projects/sandbox" />
+        <property name="last_opened_file_path" value="$USER_HOME$/Projects/Niyolabs" />
         <property name="Downloaded.Files.Path.Enabled" value="false" />
         <property name="Repository.Attach.JavaDocs" value="false" />
         <property name="Repository.Attach.Sources" value="false" />
@@ -266,10 +266,6 @@
         <configuration default="true" type="MongoRunConfiguration" factoryName="Mongo">
           <setting name="path" value="" />
           <setting name="shellParams" value="" />
-          <method />
-        </configuration>
-        <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-          <profiling log-folder="$APPLICATION_HOME_DIR$/bin/." />
           <method />
         </configuration>
         <configuration default="true" type="NodeWebKit" factoryName="NW.js">
@@ -434,7 +430,7 @@
           </state>
           <state key="ProjectJDKs.UI">
             <settings>
-              <last-edited>Python 3.4.3 (/usr/local/bin/python3)</last-edited>
+              <last-edited>1.6</last-edited>
               <splitter-proportions>
                 <option name="proportions">
                   <list>
