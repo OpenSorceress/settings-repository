@@ -15,9 +15,6 @@
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter home="/usr/bin/php" id="f58cc00d-a5d5-42b1-abdc-acc94fa2541e" name="PHP 5.5" debugger_id="php.debugger.XDebug" />
-      <interpreter home="ssh://@:22/usr/bin/php" id="0ad83eaa-f955-421e-930d-04ead516eccc" name="Remote PHP 5.6" debugger_id="php.debugger.XDebug">
-        <remote_data HOST="" PORT="22" ANONYMOUS="false" USERNAME="" PASSWORD="" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
-      </interpreter>
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">

@@ -1,7 +1,7 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="5b0e8137-1711-44cc-a92b-5c6ad64d2965" name="vagrant" url="http://localhost">
+      <webServer id="5b0e8137-1711-44cc-a92b-5c6ad64d2965" name="vagrant" url="http://herobureau.dev">
         <fileTransfer accessType="LOCAL" />
       </webServer>
     </option>
