@@ -1,8 +1,12 @@
 <application>
   <component name="UISettings">
+    <option name="FONT_FACE" value="Anonymous Pro" />
+    <option name="FONT_SIZE" value="14" />
     <option name="HIDE_TOOL_STRIPES" value="false" />
     <option name="SHOW_MEMORY_INDICATOR" value="true" />
     <option name="SHOW_MAIN_TOOLBAR" value="true" />
+    <option name="LCD_RENDERING_SCOPE" value="LCD Rendering in IDE and Editor" />
     <option name="MAX_LOOKUP_LIST_HEIGHT" value="5" />
+    <option name="PRESENTATION_MODE_FONT_SIZE" value="20" />
   </component>
 </application>
