@@ -21,6 +21,7 @@
       <mask>*.xnk</mask>
       <mask>*.xml</mask>
       <mask>*.php</mask>
+      <mask>*.twig</mask>
     </recentFileMasks>
   </component>
 </application>
