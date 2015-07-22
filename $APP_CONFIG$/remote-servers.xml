@@ -2,7 +2,8 @@
   <component name="RemoteServers">
     <remote-server name="Docker" type="docker">
       <configuration email="">
-        <option name="certificatesPath" value="$USER_HOME$/.boot2docker/certs/boot2docker-vm" />
+        <option name="apiUrl" value="https://192.168.99.100" />
+        <option name="certificatesPath" value="/opt/vagrant/embedded/ssl/certs" />
       </configuration>
     </remote-server>
   </component>
