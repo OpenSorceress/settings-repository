@@ -1,14 +1,14 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'dailymoodlog'" />
-    <option name="defaultScopeName" value="Project 'dailymoodlog'" />
+    <option name="customScope" value="Project 'HeroBureau'" />
+    <option name="defaultScopeName" value="Project 'HeroBureau'" />
     <option name="localCaseSensitive" value="true" />
     <option name="searchOverloadedMethods" value="true" />
     <option name="showResultsInSeparateView" value="true" />
     <option name="SEARCH_OVERLOADED_METHODS" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'dailymoodlog'" />
+    <option name="SEARCH_SCOPE" value="Project 'HeroBureau'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
