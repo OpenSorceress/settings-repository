@@ -502,6 +502,9 @@
         <option name="FOREGROUND" value="ffc66d" />
       </value>
     </option>
+    <option name="MULTIMARKDOWN.WIKI_LINK_REF" baseAttributes="MULTIMARKDOWN.WIKI_LINK" />
+    <option name="MULTIMARKDOWN.WIKI_LINK_SEPARATOR" baseAttributes="MULTIMARKDOWN.WIKI_LINK" />
+    <option name="MULTIMARKDOWN.WIKI_LINK_TEXT" baseAttributes="MULTIMARKDOWN.WIKI_LINK" />
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="808080" />
