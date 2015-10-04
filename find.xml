@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '/Users/leah/Projects/SHA/suppressedhistoriesarchives.dev/views/events.html'" />
-    <option name="defaultScopeName" value="File '/Users/leah/Projects/SHA/suppressedhistoriesarchives.dev/views/events.html'" />
+    <option name="customScope" value="Project 'Pilot'" />
+    <option name="defaultScopeName" value="Project 'Pilot'" />
     <option name="localCaseSensitive" value="true" />
     <option name="searchOverloadedMethods" value="true" />
     <option name="showResultsInSeparateView" value="true" />
@@ -10,7 +10,7 @@
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
-    <option name="SEARCH_SCOPE" value="File '/Users/leah/Projects/SHA/suppressedhistoriesarchives.dev/views/events.html'" />
+    <option name="SEARCH_SCOPE" value="Project 'Pilot'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
