@@ -1,5 +1,12 @@
 <application>
   <component name="libraryTable">
+    <library name="Clover IDEA Plugin">
+      <CLASSES>
+        <root url="jar://$APPLICATION_PLUGINS_DIR$/clover-idea-4.0.6.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="gradle-wrapper">
       <CLASSES>
         <root url="jar://$USER_HOME$/Projects/Astral/Pilot/Android/gradle/wrapper/gradle-wrapper.jar!/" />
