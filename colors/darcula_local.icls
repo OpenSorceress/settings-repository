@@ -69,7 +69,6 @@
         <option name="FOREGROUND" value="769aa5" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.FUNCTION_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="CONDITIONALLY_NOT_COMPILED">
       <value>
         <option name="FOREGROUND" value="536c46" />
@@ -172,7 +171,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="cc7832" />
@@ -194,8 +192,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="CUSTOM_LINE_COMMENT_ATTRIBUTES" baseAttributes="DEFAULT_LINE_COMMENT" />
-    <option name="CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES" baseAttributes="DEFAULT_BLOCK_COMMENT" />
     <option name="CUSTOM_NUMBER_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="6897bb" />
@@ -555,9 +551,6 @@
         <option name="FOREGROUND" value="ffc66d" />
       </value>
     </option>
-    <option name="MULTIMARKDOWN.WIKI_LINK_REF" baseAttributes="MULTIMARKDOWN.WIKI_LINK" />
-    <option name="MULTIMARKDOWN.WIKI_LINK_SEPARATOR" baseAttributes="MULTIMARKDOWN.WIKI_LINK" />
-    <option name="MULTIMARKDOWN.WIKI_LINK_TEXT" baseAttributes="MULTIMARKDOWN.WIKI_LINK" />
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="808080" />
@@ -696,15 +689,6 @@
         <option name="FOREGROUND" value="219598" />
       </value>
     </option>
-    <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-    <option name="PY.CLASS_DEFINITION" baseAttributes="DEFAULT_CLASS_NAME" />
-    <option name="PY.DECORATOR" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="PY.FUNC_DEFINITION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
-    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
-    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-    <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-    <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
-    <option name="PY.STRING.U" baseAttributes="DEFAULT_STRING" />
     <option name="REST.FIXED">
       <value>
         <option name="BACKGROUND" value="a3a08" />

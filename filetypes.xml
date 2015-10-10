@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="15">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;.tox;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
+      <mapping pattern="navdata" type="PLAIN_TEXT" />
       <mapping pattern=".bash_profile" type="PLAIN_TEXT" />
       <mapping pattern="sess_fct3ltvh8urtndlqvuga00hot4" type="PLAIN_TEXT" />
       <mapping pattern="thing" type="PLAIN_TEXT" />
